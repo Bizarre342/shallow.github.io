@@ -191,7 +191,7 @@ S.UI = (function () {
         default:
           S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
-    }, 1000, sequence.length);
+    }, 3000, sequence.length
   }
 
   function checkInputWidth(e) {
